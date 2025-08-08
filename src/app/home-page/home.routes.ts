@@ -7,9 +7,10 @@ import { InactiveCardsComponent } from './pages/Inactive-cards/Inactive-cards.co
 export const Homeroutes: Routes = [
 
   {
-    path: 'All',
+    path: '',
     component: AllCardsComponent,
     children: [
+      {path: 'All', component: AllCardsComponent},
       {path: 'Active', component: ActiveCardsComponent},
       {path: 'Inactive', component: InactiveCardsComponent},
       {path: '', redirectTo: 'All', pathMatch: 'full'}
