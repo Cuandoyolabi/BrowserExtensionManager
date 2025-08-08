@@ -8,8 +8,8 @@
       <div class="w-30 h-30 border-3 border-blue-500">
         <img
           class="w-full h-full object-cover rounded-3xl"
-          src="{{ ext.icon }}"
-          alt="{{ ext.name }}"
+          [src]="'assets/images/' + ext.icon"
+          [alt]="ext.name"
         />
       </div>
       <div class="w-40 h-30 border-3 border-green-500">
