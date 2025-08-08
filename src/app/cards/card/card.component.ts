@@ -8,7 +8,6 @@ import { Extension } from '../../models/extension.model';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class CardComponent {
-
   extensions: Extension[] = [
     {
       id: 1,
@@ -22,109 +21,103 @@ export class CardComponent {
       id: 2,
       name: 'StyleSpy',
       description: 'Instantly analyze and copy CSS from any webpage element.',
-      icon: 'devlens-icon.png',
+      icon: 'logo-style-spy.svg',
       color: '#4CAF50',
       active: true,
     },
     {
       id: 3,
       name: '  SpeedBoost',
-      description:
-        '  Optimizes browser resource usage to accelerate page loading.',
-      icon: 'devlens-icon.png',
+      description: 'Optimizes browser resource usage to accelerate page loading.',
+      icon: 'logo-speed-boost.svg',
       color: '#4CAF50',
       active: true,
     },
     {
       id: 4,
       name: '    JSONWizard',
-      description:
-        '  Formats, validates, and prettifies JSON responses in-browser.',
-      icon: 'devlens-icon.png',
+      description: 'Formats, validates, and prettifies JSON responses in-browser.',
+      icon: 'logo-json-wizard.svg',
       color: '#4CAF50',
       active: true,
     },
     {
       id: 5,
-      name: '    TabMaster Pro',
-      description: '  Organizes browser tabs into groups and sessions.',
-      icon: 'devlens-icon.png',
+      name: 'TabMaster Pro',
+      description: 'Organizes browser tabs into groups and sessions.',
+      icon: 'logo-tab-master.svg',
       color: '#4CAF50',
       active: true,
     },
     {
       id: 6,
-      name: '   ViewportBuddy',
-      description:
-        '   Simulates various screen resolutions directly within the browser.',
-      icon: 'devlens-icon.png',
+      name: 'ViewportBuddy',
+      description: 'Simulates various screen resolutions directly within the browser.',
+      icon: 'logo-viewport-buddy.svg',
       color: '#4CAF50',
       active: true,
     },
     {
       id: 7,
       name: '   Markup Notes',
-      description:
-        '    Enables annotation and notes directly onto webpages for collaborative debugging.',
-      icon: 'devlens-icon.png',
+      description: 'Enables annotation and notes directly onto webpages for collaborative debugging.',
+      icon: 'logo-markup-notes.svg',
       color: '#4CAF50',
       active: true,
     },
     {
       id: 8,
-      name: '  GridGuides',
-      description:
-        '  Overlay customizable grids and alignment guides on any webpage.',
-      icon: 'devlens-icon.png',
+      name: 'GridGuides',
+      description:'Overlay customizable grids and alignment guides on any webpage.',
+      icon: 'logo-grid-guides.svg',
       color: '#4CAF50',
       active: true,
     },
     {
-      id: 8,
-      name: '  Palette Picker',
+      id: 9,
+      name: 'Palette Picker',
       description: '  Instantly extracts color palettes from any webpage.',
-      icon: 'devlens-icon.png',
+      icon: 'logo-palette-picker.svg',
       color: '#4CAF50',
       active: true,
     },
     {
-      id: 8,
-      name: '  LinkChecker',
+      id: 10,
+      name: 'LinkChecker',
       description: '  Scans and highlights broken links on any page.',
-      icon: 'devlens-icon.png',
+      icon: 'logo-link-checker.svg',
       color: '#4CAF50',
       active: true,
     },
     {
-      id: 8,
-      name: '   DOM Snapshot',
-      description: '  Capture and export DOM structures quickly.',
-      icon: 'devlens-icon.png',
+      id: 11,
+      name: 'DOM Snapshot',
+      description: 'Capture and export DOM structures quickly.',
+      icon: 'logo-dom-snapshot.svg',
       color: '#4CAF50',
       active: true,
     },
     {
-      id: 8,
+      id: 12,
       name: '  ConsolePlus',
-      description:
-        '  Enhanced developer console with advanced filtering and logging.',
-      icon: 'devlens-icon.png',
+      description: 'Enhanced developer console with advanced filtering and logging.',
+      icon: 'logo-console-plus.svg',
       color: '#4CAF50',
       active: true,
     },
   ];
 
-  remove(id: number){
-    this.extensions = this.extensions.filter(e => e.id !== id);
+  remove(id: number) {
+    this.extensions = this.extensions.filter((e) => e.id !== id);
     this.saveToStorage();
   }
 
-  toggleActive(ext: Extension){
+  toggleActive(ext: Extension) {
     ext.active = !ext.active;
     this.saveToStorage();
   }
 
-  trackById(index: number, item: Extension){
+  trackById(index: number, item: Extension) {
     return item.id;
   }
 
@@ -132,17 +125,16 @@ export class CardComponent {
     localStorage.setItem('extensions', JSON.stringify(this.extensions));
   }
 
-  loadFromStorage(){
+  loadFromStorage() {
     const raw = localStorage.getItem('extensions');
-    if(raw){
+    if (raw) {
       try {
         this.extensions = JSON.parse(raw);
-      } catch { }
+      } catch {}
     }
   }
 
-  ngOnInit(){
+  ngOnInit() {
     this.loadFromStorage();
   }
-
 }
