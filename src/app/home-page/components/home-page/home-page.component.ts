@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { HeaderComponent } from "../../../header/components/header/header.component";
+import { HeaderComponent } from "../../../header/header/header.component";
 import { RouterLink, RouterLinkActive, RouterModule } from '@angular/router';
 
 @Component({
