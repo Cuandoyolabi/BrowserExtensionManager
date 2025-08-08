@@ -8,13 +8,14 @@ import { Extension } from '../../models/extension.model';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class CardComponent {
+
   extensions: Extension[] = [
     {
       id: 1,
       name: '  DevLens',
       description:
         'Quickly inspect page layouts and visualize element boundaries.',
-      icon: 'devlens-icon.png',
+      icon: '',
       color: '#4CAF50',
       active: true,
     },
@@ -144,7 +145,5 @@ export class CardComponent {
   ngOnInit(){
     this.loadFromStorage();
   }
-
-
 
 }
