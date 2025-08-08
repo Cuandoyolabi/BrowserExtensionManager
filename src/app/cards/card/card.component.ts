@@ -15,7 +15,7 @@ export class CardComponent {
       name: '  DevLens',
       description:
         'Quickly inspect page layouts and visualize element boundaries.',
-      icon: '',
+      icon: 'assets/images/devlens-icon.png',
       color: '#4CAF50',
       active: true,
     },
