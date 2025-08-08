@@ -45,7 +45,7 @@ export class CardComponent {
       id: 5,
       name: 'TabMaster Pro',
       description: 'Organizes browser tabs into groups and sessions.',
-      icon: 'logo-tab-master.svg',
+      icon: 'logo-tab-master-pro.svg',
       color: '#4CAF50',
       active: true,
     },
