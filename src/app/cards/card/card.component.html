@@ -4,25 +4,40 @@
   <div
     class="container flex flex-col w-90 h-40 border-2 border-gray-300 mx-auto rounded-3xl my-5"
   >
-    <div class="flex flex-row w-full h-25 border-2 border-red-400">
-      <div class="w-20 h-25 flex justify-center border-3 border-blue-500">
+    <div class="flex flex-row w-full h-25">
+      <div class="w-20 h-25 flex justify-center">
         <img
-          class="w-15 h-15 mt-2 object-cover"
+          class="w-15 h-15 mt-5 ml-5 object-cover"
           [src]="'assets/images/' + ext.icon"
           [alt]="ext.name"
         />
       </div>
-      <div class="w-36 h-25 border-3 border-green-500">
+      <div class="w-36 h-25 mt-3 ml-3">
         <h1 class="text-left font-bold text-blue-900 mt-1">{{ ext.name }}</h1>
-        <p class="text-gray-700 font-light text-xs">{{ ext.description }}</p>
+        <p class="text-gray-700 text-xs">{{ ext.description }}</p>
       </div>
     </div>
-    <div class="flex flex-row justify-between w-full h-15 border-2 border-blue-400">
-      <button class="px-4 py-4 text-sm bg-white border-2 border-amber-400 rounded-3xl mx-5">Remove</button>
-      <span class="w-10 h-10 border-2 border-amber-300 my-auto mx-5"></span>
+    <div class="flex flex-row justify-between w-full h-15 border-">
+      <button
+        class="px-5 py-4 m-3 text-sm text-center bg-white border-1 border-gray-400 rounded-3xl mx-5 flex items-center"
+      >
+        Remove
+      </button>
+      <label class="w-13 h-5 relative inline-flex items-center cursor-pointer mt-4 mr-4">
+        <!-- Input oculto -->
+        <input type="checkbox" class="sr-only peer" />
+
+        <!-- Fondo del toggle -->
+        <div
+          class="w-15 h-7 bg-gray-300 rounded-full peer-checked:bg-red-500 transition-colors"
+        ></div>
+
+        <!-- Circulo que se mueve -->
+        <div
+          class="absolute left-1 w-5 h-5 bg-white rounded-full shadow-md peer-checked:translate-x-6 transition-transform"
+        ></div>
+      </label>
     </div>
   </div>
   }
-
 </div>
-
