@@ -47,7 +47,7 @@ export class CardComponent {
       description: 'Organizes browser tabs into groups and sessions.',
       icon: 'logo-tab-master-pro.svg',
       color: '#4CAF50',
-      active: true,
+      active: false,
     },
     {
       id: 6,
@@ -55,7 +55,7 @@ export class CardComponent {
       description: 'Simulates various screen resolutions directly within the browser.',
       icon: 'logo-viewport-buddy.svg',
       color: '#4CAF50',
-      active: true,
+      active: false,
     },
     {
       id: 7,
