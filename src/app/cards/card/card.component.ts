@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 import { Extension } from '../../models/extension.model';
 
 @Component({
@@ -106,6 +106,25 @@ export class CardComponent {
       active: true,
     },
   ];
+
+  @Input() filter: 'all' | 'active' | 'inactive' = 'all';
+
+  get filteredExtensions(): Extension[]{
+    if(this.filter === 'active') return this.getActivateExtensions();
+    if(this.filter === 'inactive') return this.getInactiveExtension();
+    return this.extensions;
+  }
+
+  //Funcion que retorna cards activadas
+  getActivateExtensions(): Extension[] {
+    return this.extensions.filter(ext => ext.active);
+  }
+
+  //Funcion que retonar cards inactivas
+  getInactiveExtension(): Extension[] {
+    return this.extensions.filter(ext => !ext.active);
+  }
+
 
   remove(id: number) {
     this.extensions = this.extensions.filter((e) => e.id !== id);

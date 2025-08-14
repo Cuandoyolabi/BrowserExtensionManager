@@ -1,5 +1,6 @@
-<div class="container">
-  @for( ext of extensions; track ext.id){
+
+
+  @for( ext of filteredExtensions; track ext.id){
 
   <div
     class="container flex flex-col w-90 h-40 border-2 border-gray-300 mx-auto rounded-3xl my-5"
@@ -25,15 +26,15 @@
       >Remove
       </button>
       <label class="w-13 h-5 relative inline-flex items-center cursor-pointer mt-4 mr-4">
-        <!-- Input oculto -->
+
         <input type="checkbox" class="sr-only peer" />
 
-        <!-- Fondo del toggle -->
+
         <div
           class="w-15 h-7 bg-gray-300 rounded-full peer-checked:bg-red-500 transition-colors"
         ></div>
 
-        <!-- Circulo que se mueve -->
+
         <div
           class="absolute left-1 w-5 h-5 bg-white rounded-full shadow-md peer-checked:translate-x-6 transition-transform"
         ></div>
@@ -41,4 +42,5 @@
     </div>
   </div>
   }
-</div>
+
+
