@@ -125,7 +125,6 @@ export class CardComponent {
     return this.extensions.filter(ext => !ext.active);
   }
 
-
   remove(id: number) {
     this.extensions = this.extensions.filter((e) => e.id !== id);
     this.saveToStorage();
