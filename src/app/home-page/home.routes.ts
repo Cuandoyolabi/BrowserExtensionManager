@@ -4,11 +4,12 @@ import { AllCardsComponent } from './pages/All-cards/All-cards.component';
 import { ActiveCardsComponent } from './pages/Active-cards/Active-cards.component';
 import { InactiveCardsComponent } from './pages/Inactive-cards/Inactive-cards.component';
 
+
 export const Homeroutes: Routes = [
 
   {
     path: '',
-    component: AllCardsComponent,
+    component: HomePageComponent,
     children: [
       {path: 'All', component: AllCardsComponent},
       {path: 'Active', component: ActiveCardsComponent},

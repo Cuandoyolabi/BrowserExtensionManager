@@ -5,7 +5,6 @@ import { Homeroutes } from './home-page/home.routes';
 export const routes: Routes = [
 
   ...Homeroutes,
-  { path: '', redirectTo: 'All', pathMatch: 'full' },
   {path: '**', redirectTo: 'All' }
 
 ];

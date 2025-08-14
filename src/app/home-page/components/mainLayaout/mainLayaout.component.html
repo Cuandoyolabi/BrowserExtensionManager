@@ -1,0 +1,10 @@
+<app-header></app-header>
+
+<section class="flex items-center justify-center flex-col">
+  <h1 class="text-center text-2xl font-bold mt-5"> Extension List</h1>
+  <div class="flex gap-4 my-5">
+    <button class="w-10 h-8 bg-gray-200 rounded-3xl cursor-pointer" [routerLink]="['All']" routerLinkActive="bg-red-500 text-white">All</button>
+    <button class="w-20 h-8 bg-gray-200 rounded-3xl cursor-pointer" [routerLink]="['Active']" routerLinkActive="bg-red-500 text-white">Active</button>
+    <button class="w-20 h-8 bg-gray-200 rounded-3xl cursor-pointer" [routerLink]="['Inactive']" routerLinkActive="bg-red-500 text-white">Inactive</button>
+  </div>
+</section>
