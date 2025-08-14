@@ -29,14 +29,15 @@
       </button>
       <label class="w-13 h-5 relative inline-flex items-center cursor-pointer mt-4 mr-4">
 
-        <input type="checkbox" class="sr-only peer" />
-
-
+        <input
+        type="checkbox"
+        class="sr-only peer"
+        [checked]="ext.active"
+        (change)="toggleActive(ext)"
+        />
         <div
           class="w-15 h-7 bg-gray-300 rounded-full peer-checked:bg-red-500 transition-colors"
         ></div>
-
-
         <div
           class="absolute left-1 w-5 h-5 bg-white rounded-full shadow-md
           peer-checked:translate-x-6 transition-transform"
