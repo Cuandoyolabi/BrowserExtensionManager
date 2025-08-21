@@ -8,9 +8,12 @@ import { DarkthemeService } from '../../services/darktheme.service';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class HeaderComponent {
-toggleTheme() {
-throw new Error('Method not implemented.');
-}
+
+  constructor(public darkthemeService: DarkthemeService){}
+
+  toggleTheme(){
+    this.darkthemeService.toggleTheme();
+  }
 
 
 
