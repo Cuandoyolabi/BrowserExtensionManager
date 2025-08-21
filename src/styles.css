@@ -3,10 +3,17 @@
 :root{
   --bg-color: #ffffff;
   --text-color: #000000;
+  --extension-title: #000000;
+  --card-name: #1c398e;
+  --card-description: #ffffff;
+
 }
 
 .dark-theme{
   --bg-color: #121212;
   --text-color: #ffffff;
+    --extension-title: #ffffff;
+  --card-name: #ffffff;
+  --card-description: #ffffff;
 }
 
