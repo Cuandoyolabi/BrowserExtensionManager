@@ -1,5 +1,5 @@
 <div
-  class="flex items-center w-99 h-15 gap-3 px-5 py-2 bg-white rounded-xl border-1 border-gray-300 m-auto mt-5 md:w-[80%]"
+  class="flex items-center w-99 h-15 gap-3 px-5 py-2rounded-xl border-1 border-gray-300 m-auto mt-5 md:w-[80%]"
 >
   <img src="assets/images/logo.svg" alt="Logo" class="w-40" />
   <button
@@ -7,10 +7,13 @@
     (click)="toggleTheme()"
   >
     <img
-      [src]="darkthemeService.isDarkTheme() ? 'assets/images/icon-sun.svg' : 'assets/images/icon-moon.svg'"
+      [src]="
+        darkthemeService.isDarkTheme()
+          ? 'assets/images/icon-sun.svg'
+          : 'assets/images/icon-moon.svg'
+      "
       [alt]="darkthemeService.isDarkTheme() ? 'Sun' : 'Moon'"
-      class="w-7 h-7 mx-auto" />
-
-
+      class="w-7 h-7 mx-auto"
+    />
   </button>
 </div>
