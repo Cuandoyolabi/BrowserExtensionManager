@@ -11,23 +11,26 @@
   </h1>
   <div class="flex gap-4 my-5">
     <button
-      class="w-10 h-8 border-1 border-gray-400 rounded-3xl cursor-pointer"
+      class="w-10 h-8 border-1 rounded-3xl cursor-pointer
+      text-[var(--text-color)] bg-[var(--bg-btn)] border-[var(--border-btn)]"
       [routerLink]="['All']"
-      routerLinkActive="bg-red-500 text-white  border-white"
+      routerLinkActive="bg-red-500 text-white border-[var(--border-btn-active)]"
     >
       All
     </button>
     <button
-      class="w-20 h-8 border-1 border-gray-400 rounded-3xl cursor-pointer"
+      class="w-20 h-8 border-1 rounded-3xl cursor-pointer
+      text-[var(--text-color)] bg-[var(--bg-btn)] border-[var(--border-btn)]"
       [routerLink]="['Active']"
-      routerLinkActive="bg-red-500 text-white border-white"
+      routerLinkActive="bg-red-500 text-white border-[var(--border-btn-active)]"
     >
       Active
     </button>
     <button
-      class="w-20 h-8 border-1 border-gray-400 rounded-3xl cursor-pointer"
+      class="w-20 h-8 border-1 rounded-3xl cursor-pointer
+      text-[var(--text-color)] bg-[var(--bg-btn)] border-[var(--border-btn)]"
       [routerLink]="['Inactive']"
-      routerLinkActive="bg-red-500 text-white  border-white"
+      routerLinkActive="bg-red-500 text-white border-[var(--border-btn-active)]"
     >
       Inactive
     </button>

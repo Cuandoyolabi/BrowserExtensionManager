@@ -3,7 +3,11 @@
 :root{
   --bg-color: #ffffff;
   --text-color: #000000;
+  --nav-btn: rgb(226, 226, 226);
   --extension-title: #000000;
+  --border-btn: rgba(153, 153, 153, 0.896);
+  --border-btn-active: white;
+  --text-active: white;
   --bg-card: white;
   --card-name: #1c398e;
   --card-description: #000000;
@@ -13,16 +17,21 @@
 
 .dark-theme{
   --bg-color: blue;
-  --bg-start: #000216;
-  --bg-end: #000051;
+  --bg-start: #000213;
+  --bg-end: #000035;
   --text-color: #ffffff;
-  --bg-nav: rgba(48, 48, 48, 0.896);
+  --nav-btn: rgb(37, 34, 77);
+  --bg-nav: rgba(18, 17, 34, 0.896);
   --extension-title: #ffffff;
-  --bg-card: rgba(48, 48, 48, 0.896);
+  --bg-btn: rgba(43, 41, 66, 0.896);
+  --border-btn: rgba(95, 92, 131, 0.896);
+  --text-active: black;
+  --border-btn-active: transparent;
+  --bg-card: rgba(19, 18, 36, 0.896);
   --card-name: #ffffff;
   --card-description: #ffffff;
-  --card-bord: rgb(78, 78, 78);
-  --card-btn: rgba(48, 48, 48, 0.896);
+  --card-bord: rgb(107, 105, 112);
+  --card-btn: rgba(19, 18, 36, 0.896);
 }
 
 /*
