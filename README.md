@@ -18,13 +18,13 @@ Se puede filtrar, permitiendo ver las cartas tarjetas activas e inactivas.
 -Filtracion de tarjetas. <br>
 
 ## Instalación 🔧
-1-Clonar el proyecto: git clone https://github.com/TUUSUARIO/NOMBRE_DEL_REPO.git
-2-Entra a la carpeta del proyecto: cd NOMBRE_DEL_REPO
-3-Dependencias que usa el proyecto y como instalarlas:
+1-Clonar el proyecto: git clone https://github.com/TUUSUARIO/NOMBRE_DEL_REPO.git <br>
+2-Entra a la carpeta del proyecto: cd NOMBRE_DEL_REPO <br>
+3-Dependencias que usa el proyecto y como instalarlas: <br>
 
 ## Uso 💡
 Es un proyecto simple que solo requiere visualizacion, se ven tarjetas activas e inactivas, 
-en la parte de arriba se permite filtrarlas para mejor experiencia de usuario.
+en la parte de arriba se permite filtrarlas para una mejor experiencia de usuario.
 
 ## Demo 📌
 Link al demo
