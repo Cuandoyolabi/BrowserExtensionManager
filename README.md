@@ -1,5 +1,6 @@
 # BrowserExtensionManager
-Aplicacion de Angular donde se muestran tarjetas con informacion e imagen. Se puede filtrar, permitiendo ver las cartas tarjetas activas e inactivas.
+Aplicacion de Angular donde se muestran tarjetas con informacion e imagen. 
+Se puede filtrar, permitiendo ver las cartas tarjetas activas e inactivas.
 
 ## Capturas
 ![BrowserExtensionManagerLight](/assets/images/images/BrowserExtensionManagerLight.png)
