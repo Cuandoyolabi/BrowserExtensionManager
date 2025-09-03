@@ -1,5 +1,5 @@
-# Nombre del Proyecto
-Breve descripción del proyecto
+# BrowserExtensionManager
+Aplicacion de Angular donde se muestran tarjetas con informacion e imagen. Se puede filtrar, permitiendo ver las cartas tarjetas activas e inactivas.
 
 ## Capturas
 Imagen o GIF del proyecto funcionando
@@ -10,17 +10,18 @@ Imagen o GIF del proyecto funcionando
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ## Características 💎
-Característica 1
-Característica 2
-Característica 3
+-Modo obscuro/light.
+-LocalStorage.
+-Filtracion.
 
 ## Instalación 🔧
 1-Clonar el proyecto: git clone https://github.com/TUUSUARIO/NOMBRE_DEL_REPO.git
 2-Entra a la carpeta del proyecto: cd NOMBRE_DEL_REPO
-3- Dependencias que usa el proyecto y como instalarlas:
+3-Dependencias que usa el proyecto y como instalarlas:
 
 ## Uso 💡
-Cómo usar tu proyecto, con ejemplos
+Es un proyecto simple que solo requiere visualizacion, se ven tarjetas activas e inactivas, 
+en la parte de arriba se permite filtrarlas para mejor experiencia de usuario.
 
 ## Demo 📌
 Link al demo
