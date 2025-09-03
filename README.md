@@ -3,7 +3,7 @@ Aplicacion de Angular donde se muestran tarjetas con informacion e imagen.
 Se puede filtrar, permitiendo ver las cartas tarjetas activas e inactivas.
 
 ## Capturas
-![BrowserExtensionManagerLight](/assets/images/BrowserExtensionManagerLight.png)
+![BrowserExtensionManagerLight](src/assets/images/BrowserExtensionManagerLight.png)
 
 ## Tecnologías 🔎
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
