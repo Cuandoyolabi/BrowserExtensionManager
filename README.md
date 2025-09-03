@@ -10,9 +10,9 @@ Imagen o GIF del proyecto funcionando
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ## Características 💎
--Modo obscuro/light.
--LocalStorage.
--Filtracion.
+-Modo obscuro/light.<hr>
+-LocalStorage.<hr>
+-Filtracion.<hr>
 
 ## Instalación 🔧
 1-Clonar el proyecto: git clone https://github.com/TUUSUARIO/NOMBRE_DEL_REPO.git
