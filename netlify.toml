@@ -1,6 +1,6 @@
 [build]
   command = "ng build --configuration production"
-  publish = "dist/BrowserExtensionManager"
+  publish = "dist/browser-extension-manager"
 
 [[redirects]]
   from = "/*"
