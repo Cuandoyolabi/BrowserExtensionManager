@@ -1,26 +1,30 @@
-# Nombre del Proyecto
-Breve descripción del proyecto
+# BrowserExtensionManager
+Aplicacion de Angular donde se muestran tarjetas con informacion e imagen. 
+Se puede filtrar, permitiendo ver las cartas tarjetas activas e inactivas.
 
 ## Capturas
-Imagen o GIF del proyecto funcionando
+![BrowserExtensionManagerLight](src/assets/images/BrowserExtensionManagerLight.png)
 
 ## Tecnologías 🔎
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![RxJS](https://img.shields.io/badge/RxJS-B7178C?style=for-the-badge&logo=reactivex&logoColor=white)
 
 ## Características 💎
-Característica 1
-Característica 2
-Característica 3
+-Modo claro/obscuro. <br>
+-Guardado el filtrado en LocalStorage. <br>
+-Filtracion de tarjetas. <br>
 
 ## Instalación 🔧
-1-Clonar el proyecto: git clone https://github.com/TUUSUARIO/NOMBRE_DEL_REPO.git
-2-Entra a la carpeta del proyecto: cd NOMBRE_DEL_REPO
-3- Dependencias que usa el proyecto y como instalarlas:
+1-Clonar el proyecto: git clone https://github.com/TUUSUARIO/NOMBRE_DEL_REPO.git <br>
+2-Entra a la carpeta del proyecto: cd NOMBRE_DEL_REPO <br>
+3-Dependencias que usa el proyecto y como instalarlas: <br>
 
 ## Uso 💡
-Cómo usar tu proyecto, con ejemplos
+Es un proyecto simple que solo requiere visualizacion, se ven tarjetas activas e inactivas, 
+en la parte de arriba se permite filtrarlas para una mejor experiencia de usuario.
 
 ## Demo 📌
 Link al demo
