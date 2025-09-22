@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 :root{
   --bg-color: #ffffff;
@@ -35,8 +33,3 @@
   --card-bord: rgb(107, 105, 112);
   --card-btn: rgba(19, 18, 36, 0.896);
 }
-
-/*
-background: #00031f;
-background: linear-gradient(180deg, rgba(0, 3, 31, 1) 0%, rgba(0, 0, 107, 1) 100%);
-*/
